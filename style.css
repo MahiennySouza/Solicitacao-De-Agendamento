@@ -1,0 +1,133 @@
+body {
+  background-color: #fff;
+}
+
+.titulo {
+  text-align: center;
+  background-color: #fa3202;
+  color: #fff;
+  text-transform: uppercase;
+  height: 200px;
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
+  font-size: 90px;
+}
+
+form {
+  background-color: #fff;
+  width: 800px;
+  height: 2000px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+input,
+label {
+  display: block;
+  margin-left: 40px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+  margin-bottom: 20px;
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #d1cdcd;
+}
+
+.simb {
+  color: #d50f0f;
+}
+
+.box {
+  margin-top: 70px;
+}
+
+textarea {
+  margin-left: 40px;
+  width: 300px;
+  height: 90px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.file {
+  margin-bottom: 70px;
+}
+
+.botao {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding-block: 20px;/*coloca um padding de 20px em cima e em baixo*/
+  margin-left: 350px;
+  border: none;
+  width: 90px;
+}
+
+.botao:hover {
+  cursor: pointer;
+  background-color: #fa3202;
+}
+
+.radio {
+  display: flex;
+  
+}
+
+.radio label[for="alarme"],
+label[for="cameras"],
+label[for="informatica"],
+label[for="portao-automatico"],
+label[for="interfone-video-porteiro"],
+label[for="cerca-eletrica"],
+label[for="outros"] {
+  margin-left: 10px;
+}
+
+label[for="optionals"] {
+  margin-bottom: 30px;
+}
+
+input:hover {
+  border: 1px solid #e0d173;
+  cursor: pointer;
+}
+
+.radio input[type="checkbox"]{
+  border: 1px solid #8B7473;
+  width: 20px;
+  height: 20px;
+  
+}
+
+input[type="file"]{
+margin-bottom: 10px;
+border: none;
+border-bottom: 1px solid #ddd;
+height: 45px;
+}
+
+

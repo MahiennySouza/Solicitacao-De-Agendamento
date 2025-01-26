@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link para o Font Awesome icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <form>
+        <div class="titulo">
+            <i class="fas fa-lightbulb"></i>
+            <h1>Solicitação de atendimento</h1>
+        </div>
+
+        <h3>Preencha o formulário abaixo com as informações solicitadas</h3>
+
+
+
+        <div class="lab">
+            <label for="name">Nome do solicitante ou responsável<span class="simb">*</span></label>
+            <input type="text" nome="name" id="name" required>
+
+            <label for="email">E-mail para retorno<span class="simb">*</span></label>
+            <input type="email" name="email" id="email" placeholder="Ex: @gmail.com" required>
+
+            <label for="endereco">Logradouro<span class="simb">*</span></label>
+            <input type="text" nome="endereco" id="endereco" placeholder="Ex: Av São Paulo" required>
+
+            <label for="cep">CEP<span class="simb">*</span></label>
+            <input type="text" id="cep" name="cep" placeholder="Ex: 18010971" required>
+
+            <label for="numero">Numero</label>
+            <input type="number" id="cep" name="numero" required>
+
+            <label for="cidade">Cidade<span class="simb">*</span></label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="celular">Celular<span class="simb">*</span></label>
+            <input type="tel" id="celular" name="celular" maxlength="11" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required>
+        </div>
+
+
+        <h3>Para qual segmento deseja solicitar o chamado?</h3>
+
+
+        <label for="optionals">Marque uma ou mais opções para o chamado se necessário.</label>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="alarme">
+            <label for="alarme">Alarme</label>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="cameras">
+            <label for="cameras">Câmeras</label>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="informatica">
+            <label for="informatica">Informática</label>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="portao-automatico">
+            <label for="portao-automatico">Portão automático</label>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="interfone-video-porteiro">
+            <label for="interfone-video-porteiro">Interfone/ video porteiro</label>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="cerca-eletrica">
+            <label for="cerca-eletrica">Cerca elétrica</label>
+        </div>
+
+        <div class="radio">
+            <input type="checkbox" name="optionals[]" value="outros">
+            <label for="outros">Outro motivo, qual?</label>
+        </div>
+
+        <div class="box">
+            <label for="comentario">Descreva o que esta acontecendo com o máximo de detalhes possiveis.<span
+                    class="simb">*</span></label>
+            <textarea id="comentario" name="comentario"></textarea>
+        </div>
+
+        <div class="file">
+            <p>Se deseja, enviar um arquivo ou foto para analise.</p>
+            <input type="file" id="arquivo" name="arquivo" accep="image/pbg, image/jpg">
+        
+        </div>
+
+        <input class="botao" type="submit" value="Enviar">
+
+
+    </form>
+
+</body>
+
+</html>
